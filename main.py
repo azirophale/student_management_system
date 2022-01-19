@@ -505,16 +505,16 @@ class LoginDialog(QDialog):
 
     def login(self):
         global login_user
-        if(self.passinput.text() == "vbc@pune7262"):
+        if(self.passinput.text() == "pass1"):
             self.accept()
-            login_user="Pritam Khopde"
-        elif(self.passinput.text() == "san@456"):
+            login_user="Pritam "
+        elif(self.passinput.text() == "pass2"):
             self.accept()
-            login_user="Sandeep Enpure"
-        elif(self.passinput.text() == "Sati@123"):
+            login_user="Sandeep "
+        elif(self.passinput.text() == "pass3"):
             self.accept()
-            login_user="Satish Mane"
-        elif(self.passinput.text() == "MeAjunSingleAhe#911"):
+            login_user="Satish"
+        elif(self.passinput.text() == "ADMINPASS"):
             self.accept()
             login_user="Admin"
         else:
